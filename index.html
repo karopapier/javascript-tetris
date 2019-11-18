@@ -10,9 +10,6 @@ body {
 #tetris {
     margin: 1em auto;
     padding: 1em;
-    border: 4px solid black;
-    border-radius: 10px;
-    background-color: #F8F8F8;
 }
 
 #canvas {
@@ -21,6 +18,9 @@ body {
     /* background: url(texture.jpg); */
     box-shadow: 10px 10px 10px #999;
     border: 2px solid #333;
+	width: 134px;
+	height: 264px;
+
 }
 
 #menu {
@@ -58,9 +58,12 @@ body {
 }
 
 </style>
+        <link rel="stylesheet" href="http://2.karopapier.de/css/main.css" />
+		        <link rel="stylesheet" href="http://2.karopapier.de/css/global.css" />
 </head>
 
 <body>
+Du bist bei <a href="www.karopapier.de">Karopapier</a> gerade nicht dran? Dann spiel doch Tetris im vertrauten Look:
 
 <div id="tetris">
     <div id="menu">
@@ -647,5 +650,6 @@ run();
 
 </script>
 
+<footer><small>Code <a href="https://github.com/karopapier/javascript-tetris">is here</a>. Based on <a href="http://codeincomplete.com/posts/2011/10/10/javascript_tetris/">Javascript Tetris</a>
 </body>
 </html>
